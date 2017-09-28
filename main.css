@@ -18,7 +18,7 @@ body {
 
 @font-face {
     font-family: 'mario';
-    src: url("images/FOO.ttf");
+    src: url("../Matching-Game/images/FOO.ttf");
 }
 
 body {
