@@ -7,7 +7,7 @@ This project demostrates skills in Jquery, Javascript, HTML, and CSS.
 
 Start the game: 
 
-Play on GitHub.io: link-
+Play on GitHub.io: https://davidcarmel92.github.io/mario-matching-game/
 
 How to Play the Game
 
