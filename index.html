@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matching Game</title>
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+  <div class="container">
+      <header>
+          <h1>Super Mario Matching Game</h1>
+      </header>
+      <section class="timer">
+        <h3>Timer</h3>
+      </section>
+      <section class="score-panel">
+        <ul class="stars">
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+
+        <span class="moves"></span>
+        <div class="restart" onClick="window.location.reload()">
+          <span class="reload-game">Reload game</span>
+          <i class="fa fa-repeat"></i>
+        </div>
+      </section>
+
+      <div class="board">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+    </div>
+
+
+  <div id="winModal" class="modal">
+    <div class="modal-content">
+      <h2 class="congrats">Congratulations! You won!</h2>
+      <section class="modal-data">
+        <div class="end_stats">
+          <div class="end_star_rating"></div>
+          <div class="end_timer"></div>
+          <div class ="end_moves"></div>
+        </div>
+        <input type="button" class="play-again-button" value="Play again" onClick="window.location.reload()">
+      </section>
+    </div>
+  </div>
+
+  <footer>
+  </footer>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<script src="app.js"></script>
+</html>
